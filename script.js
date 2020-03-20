@@ -169,7 +169,6 @@ form.addEventListener('submit', (e) => {
   
 
   nameValidator();
- //console.log(nameinput);
   emailValidator();
   frameworkValidator();
   languageValidator();
@@ -187,13 +186,13 @@ form.addEventListener('submit', (e) => {
     
   if(!emailValidator()) {
     
-    e.preventDefault
+    e.preventDefault();
     console.log("email missing");
     
   }
   
   if(!frameworkValidator()){
-    e.preventDefault
+    e.preventDefault();
     console.log("framework missing");
     
     
@@ -201,7 +200,7 @@ form.addEventListener('submit', (e) => {
   
   if (!languageValidator()) {
     
-    e.preventDefault
+    e.preventDefault();
     console.log("language missing");
     
   }
